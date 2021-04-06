@@ -3,7 +3,7 @@ import React from "react";
 const Calendar = () => {
   return (
     <div>
-      <table className="ui celled table">
+      <table className="ui celled green table">
         <thead>
           <tr>
             <th>Name</th>

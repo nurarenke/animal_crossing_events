@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "./Header";
 import Calendar from "./Calendar";
 import nookipedia from "../apis/nookipedia";
 
@@ -40,6 +41,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="ui container">
+        <Header />
         <Calendar />
         <div>events:{this.state.events}</div>
       </div>
