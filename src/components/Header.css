@@ -1,0 +1,9 @@
+.title-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+#header-title {
+  font-size: xxx-large;
+  font-family: "Archivo Black", sans-serif;
+}
